@@ -1,15 +1,7 @@
 
 import java.util.Scanner;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author asus
- */
 public class kasir {
     public static void main(String[] args) {
           System.out.println("Menu Makanan");
@@ -69,7 +61,7 @@ public class kasir {
             System.out.println("Pembayaran:");
             bayar=input.nextInt();
             kembali=bayar-total;
-            System.out.println("Kembalian"+kembali);2
+            System.out.println("Kembalian"+kembali);
                     
             
             
