@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package polymorphism;
 
-/**
- *
- * @author USER
- */
+
 public class tampilMinuman {
-    
+    public static void main(String[] args) {
+        LycheeTea lt = new LycheeTea();
+        lt.tampilJenis("tea");
+        System.out.println("Harga: "+lt.jenisMinuman());
+    }
 }
